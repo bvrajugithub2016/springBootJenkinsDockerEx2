@@ -11,7 +11,7 @@ public class SpringBootWebForJenkinsDockerEx2Application {
 
 	@GetMapping("/hello")
 	public String welcome() {
-		return "Hello Mr. BVRaju, welcome to Spring Boot RESTFul API Web Application - for Jenkins Docker Integration";
+		return "Hai Raju, welcome to Spring Boot RESTFul API Web Application - for Jenkins Docker Integration";
 	}
 	
 	public static void main(String[] args) {
